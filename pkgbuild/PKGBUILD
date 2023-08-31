@@ -1,6 +1,6 @@
 # Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
 
-pkgname=pipewire-biglinux-config
+pkgname=pipewire-biglinux-config-git
 pkgdesc="Pipewire configuration to better audio compatibility"
 depends=('pipewire')
 # makedepends=('')
@@ -9,8 +9,8 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL3')
-url="https://github.com/biglinux/$pkgname"
-provides=("$pkgname")
+url="https://github.com/biglinux/pipewire-biglinux-config"
+provides=("pipewire-biglinux-config")
 source=("git+${url}.git")
 md5sums=('SKIP')
 if [ -e "${pkgname}.install" ];then
