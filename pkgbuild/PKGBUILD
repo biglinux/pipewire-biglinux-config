@@ -3,11 +3,11 @@
 pkgname=pipewire-biglinux-config
 pkgdesc="Pipewire configuration to better audio compatibility"
 depends=('wireplumber>=0.5')
-# makedepends=('')
+makedepends=('git')
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
-license=('GPL3')
+license=('GPL-3.0-or-later')
 url="https://github.com/biglinux/pipewire-biglinux-config"
 provides=("pipewire-biglinux-config-git")
 replaces=('pipewire-biglinux-config-git')
