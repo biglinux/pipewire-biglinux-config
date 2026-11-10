@@ -2,7 +2,7 @@
 
 pkgname=pipewire-biglinux-config
 pkgdesc="Pipewire configuration to better audio compatibility"
-depends=('pipewire')
+depends=('wireplumber>=0.5')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
