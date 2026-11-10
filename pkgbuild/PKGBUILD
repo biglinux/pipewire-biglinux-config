@@ -1,7 +1,7 @@
 # Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
 
 pkgname=pipewire-biglinux-config
-pkgdesc="Pipewire configuration to better audio compatibility"
+pkgdesc="BigLinux WirePlumber settings for Bluetooth, pro-audio interfaces and output switching"
 depends=('wireplumber>=0.5')
 makedepends=('git')
 pkgver=$(date +%y.%m.%d)
